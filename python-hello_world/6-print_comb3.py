@@ -4,3 +4,4 @@ for i in range(0,10):
             print(int(str(i)+str(j)) , end=", ")
         else:
             print(int(str(i)+str(j)))
+print("Test")

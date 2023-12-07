@@ -1,5 +1,5 @@
 def print_matrix_integer(matrix=[[]]):
-    if len(matrix) == 0:
+    if not matrix:
         print()
     else:
         for i in range(0,len(matrix)):

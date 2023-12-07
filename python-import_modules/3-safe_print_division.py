@@ -4,7 +4,8 @@ def safe_print_division(a, b):
     except Exception:
         division = None
     else:
-        print("Inside result: {}".format(division))
+        pass
     finally:
+        print("Inside result: {}".format(division))
         print("{:d} / {:d} = {}".format(a, b, division))
         

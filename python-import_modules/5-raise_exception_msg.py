@@ -1,8 +1,5 @@
 def raise_exception_msg(message=""):
     try:
-        pass
+        raise NameError(message)
     except NameError as ne:
         print(ne)
-    finally:
-        return message
-    

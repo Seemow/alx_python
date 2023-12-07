@@ -1,5 +1,5 @@
 def raise_exception():
     try:
-        return 1 / 0
+        raise TypeError
     except Exception:
         print("Exception has been raised")

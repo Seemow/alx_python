@@ -1,2 +1,5 @@
 def raise_exception():
-    return 1 / 0
+    try:
+        return 1 / 0
+    except Exception:
+        print("Exception raised")
